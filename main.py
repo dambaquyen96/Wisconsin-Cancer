@@ -49,7 +49,7 @@ def sigmoid(z):
     return 1./(1.+np.exp(-z))
 
 def derivative_of_sigmoid(sigmoid_x):
-	return sigmoid_x*(1-sigmoid_x)
+    return sigmoid_x*(1-sigmoid_x)
 
 def decision(val, T):
     if(val >= T):

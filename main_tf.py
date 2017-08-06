@@ -5,6 +5,14 @@ Created on Fri Aug 04 09:19:00 2017
 @author: damba
 """
 
+"""
+In this code, the output data is 2-dimensional
+(1, 0) coressponding the M
+(0, 1) coressponding the B
+The classification class is the ones have higher score
+The train function is flexible, works with various hidden and various size
+"""
+
 import csv
 import tensorflow as tf
 import numpy as np
